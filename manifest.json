@@ -1,0 +1,23 @@
+{
+   "manifest_version": 2,
+   "name": "Case Volume Reports",
+   "version": "1.0",
+   
+   "description": "Case Volume Reports",
+   "icons": {
+      "128": "images/cv-128.png",
+      "48": "images/cv-48.png"
+   },
+   
+   "author": "MikeT",
+
+   "browser_action": {
+      "default_icon": "images/cv-16.png",
+	  "default_popup": "cv.html"
+   },
+   
+   "permissions": [
+	  "tabs",
+      "http://vpro-web1/CaseVolume/Reports.aspx" 
+   ]
+}
